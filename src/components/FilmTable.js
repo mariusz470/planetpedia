@@ -18,6 +18,7 @@ const SortIcon = styled(FaSort)`
 
 const FilmTable = ({planets}) => {
     const { items, requestSort } = useSort(planets);
+    // sorting code found on https://www.smashingmagazine.com/2020/03/sortable-tables-react/
   
   
     return (
