@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import styled from 'styled-components';
+
 import './App.css';
+import FilmList from './components/FilmList';
+import Logo from './Assets/LOGO.svg'
+
 
 function App() {
+
+  const LogoWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    max-width: 100%;
+  `
+  
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LogoWrapper><img src={Logo} alt="Logo" /></LogoWrapper>
+      <FilmList />
     </div>
   );
 }
