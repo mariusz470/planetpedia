@@ -41,4 +41,5 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Usage <a name = "usage"></a>
 
-Live version is available on heroku 
+Live version is available on heroku:
+[planetpedia](https://planetpedia.herokuapp.com/)
